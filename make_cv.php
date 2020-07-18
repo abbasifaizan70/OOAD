@@ -21,15 +21,15 @@
 
       $Catch = new DataCaher();
 
-        $Catch->data=file_get_contents("./Scrappy Part/Profile/sample.json");
+        $Catch->data=file_get_contents("sample.json");
         $data=json_decode($Catch->data);
         echo'</br>
         <div class="table-responsive">
         <table class="table table-bordered table-striped">
         <thead class="thead-light">
         <tr class="info active " >
-            <th scope="col" style="color:blue;text-align:center;">Details</th>
-            <th scope="col" style="color:blue;text-align:center;">CV</th>    
+            <th scope="col" style="text-align:center;">Details</th>
+            <th scope="col" style="text-align:center;">CV</th>    
         </tr>
         </thead>
         <tbody>';
